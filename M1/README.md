@@ -46,7 +46,8 @@ m \frac{d\vec{u_y}}{dt} = -mg - k\vec{u_y}
 \frac{d\vec{u_x}}{dt} = -\frac{k}{m} u_x \\
 \frac{d\vec{u_y}}{dt} = -g - \frac{k}{m} u_y
 \end{cases}
-$$ ,пусть p = $\frac{k}{m}$ 
+$$
+,пусть p = $\frac{k}{m}$
 
 $$
 \begin{cases}
