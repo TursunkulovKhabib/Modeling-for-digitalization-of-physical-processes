@@ -79,6 +79,7 @@ ln{|u_x|} = -pt + C\\
 $$
 
 Предположим, что $u_x(0) = u_{0x}$ и $u_y(0) = u_{0y}$. Выразим $u_x(t)$ и $u_y(t)$:
+
 $$
 \begin{cases}
 u_x(t) = e^{-pt} u_{0x}\\
@@ -126,7 +127,8 @@ $$
 \begin{cases}
 m a_x = - k u_x \sqrt{u_x^2 + u_y^2} \\
 m a_y = -m g - k u_y \sqrt{u_x^2 + u_y^2}
-\end{cases} \;\Rightarrow\;
+\end{cases}
+\Rightarrow\
 \begin{cases}
 m \frac{du_x}{dt} = - k u_x \sqrt{u_x^2 + u_y^2} \\
 m \frac{du_y}{dt} = -m g - k u_y \sqrt{u_x^2 + u_y^2}
