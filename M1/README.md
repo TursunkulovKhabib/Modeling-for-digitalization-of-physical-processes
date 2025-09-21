@@ -91,8 +91,8 @@ $$
 
 $$
 \begin{cases}
-\int \frac{dx}{dt} \, dt = \int e^{-pt} u_{0x} dt\\
-\int \frac{dy}{dt} \, dt = \int \frac{(pu_{0y}+g)e^{-pt} - g}{p}dt
+\int \frac{dx}{dt} \ dt = \int e^{-pt} u_{0x} dt\\
+\int \frac{dy}{dt} \ dt = \int \frac{(pu_{0y}+g)e^{-pt} - g}{p}dt
 \end{cases}
 $$
 
