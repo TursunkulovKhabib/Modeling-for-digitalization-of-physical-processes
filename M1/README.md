@@ -19,8 +19,8 @@ $\vec{F} = m \vec{a}$
 
 $$
 \begin{cases}
-m\vec{a_x} = F_{сопр x} \\
-m\vec{a_y} = F_g + F_{сопр y}
+m{a_x} = F_{сопр x} \\
+m{a_y} = F_g + F_{сопр y}
 \end{cases}
 $$
 
@@ -41,7 +41,8 @@ $$
 \begin{cases}
 m \frac{d{u_x}}{dt} = -k{u_x} \\
 m \frac{d{u_y}}{dt} = -mg - k{u_y}
-\end{cases} \;\Rightarrow\;
+\end{cases}\
+\Rightarrow\
 \begin{cases}
 \frac{d{u_x}}{dt} = -\frac{k}{m} u_x \\
 \frac{d{u_y}}{dt} = -g - \frac{k}{m} u_y
