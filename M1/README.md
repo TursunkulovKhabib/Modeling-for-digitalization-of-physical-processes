@@ -88,6 +88,7 @@ u_y(t) = \frac{(pu_{0y}+g)e^{-pt} - g}{p}
 $$
 
 Выразим координаты
+
 $$
 \begin{cases}
 \int \frac{dx}{dt} \, dt = \int e^{-pt} u_{0x} dt\\
