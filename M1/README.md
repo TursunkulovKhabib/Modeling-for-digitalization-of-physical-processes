@@ -29,44 +29,44 @@ $$
 
 $$
 \begin{cases}
-m\vec{a_x} = 0 - k\vec{u_x} \\
-m\vec{a_y} = -mg - k\vec{u_y}
+m{a_x} = 0 - k{u_x} \\
+m{a_y} = -mg - k{u_y}
 \end{cases}
 $$
 
-,где $k\vec{u_x}$ - сила вязкого сопротивления по оси x, $k\vec{u_y}$ - сила
+,где $k{u_x}$ - сила вязкого сопротивления по оси x, $k{u_y}$ - сила
 вязкого сопротивления по оси y, $k$ - коэфицент вязкого сопротивления.
 
 $$
 \begin{cases}
-m \frac{d\vec{u_x}}{dt} = -k\vec{u_x} \\
-m \frac{d\vec{u_y}}{dt} = -mg - k\vec{u_y}
+m \frac{d{u_x}}{dt} = -k{u_x} \\
+m \frac{d{u_y}}{dt} = -mg - k{u_y}
 \end{cases} \;\Rightarrow\;
 \begin{cases}
-\frac{d\vec{u_x}}{dt} = -\frac{k}{m} u_x \\
-\frac{d\vec{u_y}}{dt} = -g - \frac{k}{m} u_y
+\frac{d{u_x}}{dt} = -\frac{k}{m} u_x \\
+\frac{d{u_y}}{dt} = -g - \frac{k}{m} u_y
 \end{cases}
+,пусть p = \frac{k}{m}
 $$
-,пусть p = $\frac{k}{m}$
 
 $$
 \begin{cases}
-\frac{d\vec{u_x}}{dt} = -p u_x \\
-\frac{d\vec{u_y}}{dt} = -g - p u_y
+\frac{d{u_x}}{dt} = -p u_x \\
+\frac{d{u_y}}{dt} = -g - p u_y
 \end{cases} \;\Rightarrow\;
 \begin{cases}
-\frac{d\vec{u_x}}{\vec{u_x}} = -pdt \\
-\frac{d\vec{u_y}}{-g - p \vec{u_y}} = dt
+\frac{d{u_x}}{{u_x}} = -pdt \\
+\frac{d{u_y}}{-g - p{u_y}} = dt
 \end{cases}
-$$ Проинтегрируем и выразим $\vec{u_x}$ и $\vec{u_y}$
+$$ Проинтегрируем и выразим ${u_x}$ и ${u_y}$
 $$
 \begin{cases}
-\int \frac{d\vec{u_x}}{\vec{u_x}} = \int -pdt \\
-\int \frac{d\vec{u_y}}{-g - p \vec{u_y}} = \int dt
+\int \frac{d{u_x}}{{u_x}} = \int -pdt \\
+\int \frac{d{u_y}}{-g - p{u_y}} = \int dt
 \end{cases} \;\Rightarrow\;
 \begin{cases}
-\int \frac{d\vec{u_x}}{\vec{u_x}} = -\int pdt \\
-\int \frac{d\vec{u_y}}{g + p \vec{u_y}} = -\int dt
+\int \frac{d{u_x}}{\vec{u_x}} = -\int pdt \\
+\int \frac{d{u_y}}{g + p{u_y}} = -\int dt
 \end{cases}\;\Rightarrow\;
 \begin{cases}
 ln{|u_x|} = -pt + C\\
@@ -132,4 +132,3 @@ $$
 Полученная система является системой нелинейных дифференциальных уравнений, так как сила сопротивления зависит 
 от квадрата скорости. В общем виде такую системы решить мы не можем, поэтому для решения этой системы
 воспользуемся численными методами.
-
