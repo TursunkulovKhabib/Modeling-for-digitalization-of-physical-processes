@@ -131,8 +131,8 @@ m a_y = -m g - k u_y \sqrt{u_x^2 + u_y^2}
 \end{cases}
 \Rightarrow\
 \begin{cases}
-m \frac{du_x}{dt} = - k u_x \sqrt{u_x^2 + u_y^2} \\
-m \frac{du_y}{dt} = -m g - k u_y \sqrt{u_x^2 + u_y^2}
+\frac{du_x}{dt} = -\frac {k u_x}{m} \sqrt{u_x^2 + u_y^2} \\
+\frac{du_y}{dt} = -g - \frac{k u_y}{m} \sqrt{u_x^2 + u_y^2}
 \end{cases}\
 $$
 
