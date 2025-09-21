@@ -54,7 +54,8 @@ $$
 \begin{cases}
 \frac{d{u_x}}{dt} = -p u_x \\
 \frac{d{u_y}}{dt} = -g - p u_y
-\end{cases} \;\Rightarrow\;
+\end{cases}
+\Rightarrow\
 \begin{cases}
 \frac{d{u_x}}{{u_x}} = -pdt \\
 \frac{d{u_y}}{-g - p{u_y}} = dt
@@ -64,11 +65,13 @@ $$
 \begin{cases}
 \int \frac{d{u_x}}{{u_x}} = \int -pdt \\
 \int \frac{d{u_y}}{-g - p{u_y}} = \int dt
-\end{cases} \;\Rightarrow\;
+\end{cases} 
+\Rightarrow\
 \begin{cases}
 \int \frac{d{u_x}}{\vec{u_x}} = -\int pdt \\
 \int \frac{d{u_y}}{g + p{u_y}} = -\int dt
-\end{cases}\;\Rightarrow\;
+\end{cases}\
+\Rightarrow\
 \begin{cases}
 ln{|u_x|} = -pt + C\\
 -\frac{1}{p}ln{|g + pu_y|} = -t + C
