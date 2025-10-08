@@ -12,7 +12,7 @@
 Формула зеркального отражения скорости через единичную нормаль $\mathbf{n}$:
 
 $$
-\mathbf{v}'=\mathbf{v}-2\,(\mathbf{v}\cdot \mathbf{n})\,\mathbf{n}.
+\mathbf{v}'=\mathbf{v}-2\ (\mathbf{v}\cdot \mathbf{n})\ \mathbf{n}.
 $$
 
 Это обращает нормальную компоненту и сохраняет модуль скорости в пределе абсолютно упругого контакта.
@@ -21,14 +21,14 @@ $$
 Пусть в момент контакта центры $\mathbf{x}_1,\mathbf{x}_2$, скорости $\mathbf{v}_1,\mathbf{v}_2$, массы $m_1,m_2$. Тогда при $e=1$:
 
 $$
-\mathbf{v}'_1=\mathbf{v}_1-\frac{2m_2}{m_1+m_2}\,
-\frac{\langle \mathbf{v}_1-\mathbf{v}_2,\ \mathbf{x}_1-\mathbf{x}_2\rangle}{\lVert\mathbf{x}_1-\mathbf{x}_2\rVert^2}\,
+\mathbf{v}'_1=\mathbf{v}_1-\frac{2m_2}{m_1+m_2}\ 
+\frac{\langle \mathbf{v}_1-\mathbf{v}_2,\ \mathbf{x}_1-\mathbf{x}_2\rangle}{\lVert\mathbf{x}_1-\mathbf{x}_2\rVert^2}\ 
 (\mathbf{x}_1-\mathbf{x}_2),
 $$
 
 $$
-\mathbf{v}'_2=\mathbf{v}_2-\frac{2m_1}{m_1+m_2}\,
-\frac{\langle \mathbf{v}_2-\mathbf{v}_1,\ \mathbf{x}_2-\mathbf{x}_1\rangle}{\lVert\mathbf{x}_2-\mathbf{x}_1\rVert^2}\,
+\mathbf{v}'_2=\mathbf{v}_2-\frac{2m_1}{m_1+m_2}\ 
+\frac{\langle \mathbf{v}_2-\mathbf{v}_1,\ \mathbf{x}_2-\mathbf{x}_1\rangle}{\lVert\mathbf{x}_2-\mathbf{x}_1\rVert^2}\ 
 (\mathbf{x}_2-\mathbf{x}_1).
 $$
 
@@ -50,8 +50,8 @@ $$
 Нормальная сила и потенциальная энергия:
 
 $$
-\mathbf{F}_n = k\,\delta\,\hat{\mathbf{n}},\qquad
-U(\delta)=\int_0^\delta k s\,ds=\frac{k}{2}\,\delta^2.
+\mathbf{F}_n = k\ \delta\ \hat{\mathbf{n}} \qquad
+U(\delta)=\int_0^\delta k s\ ds=\frac{k}{2}\ \delta^2.
 $$
 
 Линейная зависимость силы от деформации корректна для малых упругих деформаций и служит базовой моделью контакта.
@@ -60,8 +60,8 @@ $$
 Нелинейная сила и потенциальная энергия:
 
 $$
-\mathbf{F}_n = k_h\,\delta^{3/2}\,\hat{\mathbf{n}},\qquad
-U(\delta)=\int_0^\delta k_h s^{3/2} ds=\frac{2}{5}\,k_h\,\delta^{5/2}.
+\mathbf{F}_n = k_h\ \delta^{3/2}\ \hat{\mathbf{n}} \qquad
+U(\delta)=\int_0^\delta k_h s^{3/2} ds=\frac{2}{5}\ k_h\ \delta^{5/2}.
 $$
 
 Коэффициент $k_h$ зависит от материалов и геометрии соприкасающихся тел (эффективный модуль Юнга и радиусы кривизны).
